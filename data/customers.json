@@ -1,0 +1,231 @@
+{
+  "company": "SwiftNet Fiber",
+  "customers": [
+    {
+      "id": "SN-10231",
+      "name": "Ravi Kumar",
+      "city": "Visakhapatnam",
+      "plan": "Fiber 100 Mbps",
+      "router": "TP-Link Archer C6",
+      "profile": [
+        "Ravi Kumar works from home as a software tester and needs stable internet between 9 AM and 6 PM.",
+        "Ravi prefers short, step-by-step instructions and gets irritated by long scripted greetings.",
+        "Ravi's router is kept in the hall, far from his work room on the first floor."
+      ],
+      "tickets": [
+        {"date": "2026-06-14", "issue": "Internet very slow in the evening, speed test showed 12 Mbps on a 100 Mbps plan.", "resolution": "Router was on the crowded 2.4 GHz band. Switched his laptop to the 5 GHz network (SwiftNet_5G). Speed went back to 94 Mbps.", "sentiment": "frustrated"},
+        {"date": "2026-08-02", "issue": "Wi-Fi drops every few minutes in the first-floor room.", "resolution": "Signal too weak upstairs. Recommended a mesh extender; Ravi said he would think about it. Temporary fix: moved router higher on a shelf.", "sentiment": "annoyed"},
+        {"date": "2026-09-10", "issue": "Slow speed again after a power cut.", "resolution": "Router had reset to default channel settings after the power cut. Restarted router and reconnected to 5 GHz. Fixed in 5 minutes.", "sentiment": "calm"}
+      ]
+    },
+    {
+      "id": "SN-10457",
+      "name": "Priya Reddy",
+      "city": "Hyderabad",
+      "plan": "Fiber 300 Mbps + OTT Pack",
+      "router": "SwiftNet ONT-X2",
+      "profile": [
+        "Priya Reddy runs an online boutique and uploads product videos daily.",
+        "Priya prefers to be contacted on WhatsApp, not phone calls.",
+        "Priya was promised a loyalty discount in July 2026 that has not been applied yet."
+      ],
+      "tickets": [
+        {"date": "2026-05-20", "issue": "Upload speed only 20 Mbps, needs faster uploads for videos.", "resolution": "Plan is symmetric but ONT firmware was outdated. Pushed firmware update 3.4.1 remotely. Upload went to 280 Mbps.", "sentiment": "happy"},
+        {"date": "2026-07-11", "issue": "Charged twice for the OTT Pack in the July bill (Rs 299 extra).", "resolution": "Duplicate charge confirmed and refund raised. Agent also promised a 10% loyalty discount from August. Discount not yet visible in system.", "sentiment": "angry"},
+        {"date": "2026-08-25", "issue": "Asked why loyalty discount is missing from August bill.", "resolution": "Escalated to billing team, ticket BIL-5521 still open.", "sentiment": "angry"}
+      ]
+    },
+    {
+      "id": "SN-10612",
+      "name": "Mohammed Irfan",
+      "city": "Hyderabad",
+      "plan": "Fiber 200 Mbps",
+      "router": "Netgear R6350",
+      "profile": [
+        "Mohammed Irfan is a competitive online gamer and cares about ping, not just speed.",
+        "Irfan is technical and prefers detailed explanations with actual numbers."
+      ],
+      "tickets": [
+        {"date": "2026-06-30", "issue": "High ping (120 ms) to Mumbai game servers in the evening.", "resolution": "Traffic was routing via Chennai. Network team applied a routing fix; ping dropped to 18 ms.", "sentiment": "satisfied"},
+        {"date": "2026-09-05", "issue": "Ping spikes when family streams 4K video.", "resolution": "Enabled QoS on his Netgear router with gaming device priority. Spikes stopped.", "sentiment": "happy"}
+      ]
+    },
+    {
+      "id": "SN-10788",
+      "name": "Lakshmi Devi",
+      "city": "Vijayawada",
+      "plan": "Fiber 50 Mbps",
+      "router": "TP-Link Archer C6",
+      "profile": [
+        "Lakshmi Devi is a retired teacher, 67 years old, and is not comfortable with technical terms.",
+        "Lakshmi prefers explanations in simple Telugu-English and likes the agent to be patient.",
+        "Lakshmi mainly uses internet for video calls with her son in the USA on Sunday mornings."
+      ],
+      "tickets": [
+        {"date": "2026-07-06", "issue": "Video call with son keeps freezing.", "resolution": "Her phone was connected to neighbour's open Wi-Fi by mistake. Reconnected to her own network SwiftNet_Lakshmi and saved password. Calls fine.", "sentiment": "relieved"},
+        {"date": "2026-08-16", "issue": "Forgot Wi-Fi password after buying a new phone.", "resolution": "Guided her to read password from the sticker under the router. Took 20 minutes, she was grateful for patience.", "sentiment": "grateful"}
+      ]
+    },
+    {
+      "id": "SN-10903",
+      "name": "Arjun Varma",
+      "city": "Guntur",
+      "plan": "Fiber 100 Mbps",
+      "router": "SwiftNet ONT-X2",
+      "profile": [
+        "Arjun Varma runs a small printing shop and uses internet for billing software and UPI payments.",
+        "Arjun has threatened to switch to another provider if outages continue."
+      ],
+      "tickets": [
+        {"date": "2026-04-18", "issue": "No internet, red LOS light on ONT.", "resolution": "Fiber cut on the street due to road work. Technician repaired in 6 hours.", "sentiment": "angry"},
+        {"date": "2026-07-22", "issue": "Red LOS light again, shop billing stopped.", "resolution": "Fiber connector loose inside the shop. Technician re-spliced. Offered 3 days service credit.", "sentiment": "very angry"},
+        {"date": "2026-09-01", "issue": "Internet down for 2 hours during business time.", "resolution": "Area power outage at the local node. Node battery backup was faulty; network team replaced it.", "sentiment": "very angry"}
+      ]
+    },
+    {
+      "id": "SN-11044",
+      "name": "Sneha Patnaik",
+      "city": "Visakhapatnam",
+      "plan": "Fiber 150 Mbps",
+      "router": "D-Link DIR-825",
+      "profile": [
+        "Sneha Patnaik is a college lecturer who takes online classes from home.",
+        "Sneha has two kids who use the network heavily after 4 PM."
+      ],
+      "tickets": [
+        {"date": "2026-08-08", "issue": "Too many devices, laptop disconnects during online class.", "resolution": "D-Link router supports limited clients. Set up a separate guest network for kids' devices. Class connection stable.", "sentiment": "satisfied"}
+      ]
+    },
+    {
+      "id": "SN-11187",
+      "name": "Venkatesh Rao",
+      "city": "Hyderabad",
+      "plan": "Fiber 500 Mbps Business",
+      "router": "SwiftNet ONT-X2",
+      "profile": [
+        "Venkatesh Rao owns a 12-person accounting firm in Madhapur.",
+        "Venkatesh needs a static IP for remote access to his office server.",
+        "Venkatesh is formal and expects SLA commitments in writing."
+      ],
+      "tickets": [
+        {"date": "2026-06-03", "issue": "Remote desktop to office server not working from home.", "resolution": "Static IP 103.45.xx.xx was assigned but port 3389 forwarding was missing on the ONT. Configured port forwarding. Advised VPN for security.", "sentiment": "satisfied"},
+        {"date": "2026-08-19", "issue": "Static IP changed after ONT replacement, remote access broke again.", "resolution": "New ONT did not have static IP profile. Re-applied profile and port forwarding. Added note: always re-apply static profile after ONT swap.", "sentiment": "annoyed"}
+      ]
+    },
+    {
+      "id": "SN-11302",
+      "name": "Fatima Begum",
+      "city": "Hyderabad",
+      "plan": "Fiber 100 Mbps",
+      "router": "TP-Link Archer C6",
+      "profile": [
+        "Fatima Begum is a homemaker who uses the internet mainly for YouTube cooking videos and smart TV.",
+        "Fatima prefers Hindi or Urdu-friendly simple language."
+      ],
+      "tickets": [
+        {"date": "2026-07-28", "issue": "Smart TV shows 'no internet' but phone works.", "resolution": "TV was set to a fixed old IP address. Changed TV network setting to automatic (DHCP). Worked.", "sentiment": "happy"}
+      ]
+    },
+    {
+      "id": "SN-11459",
+      "name": "Karthik Naidu",
+      "city": "Tirupati",
+      "plan": "Fiber 200 Mbps",
+      "router": "TP-Link Archer C6",
+      "profile": [
+        "Karthik Naidu is a freelance video editor who uploads large files to clients abroad.",
+        "Karthik is price sensitive and asked twice about cheaper plans."
+      ],
+      "tickets": [
+        {"date": "2026-06-21", "issue": "Uploads to Google Drive stop midway.", "resolution": "Router firmware bug on TP-Link Archer C6 v3 with large uploads. Updated firmware to latest version. Uploads completed.", "sentiment": "satisfied"},
+        {"date": "2026-09-12", "issue": "Asked about cheaper plan with same upload speed.", "resolution": "Shared Fiber 150 annual plan with 2 months free. He said he will decide by October.", "sentiment": "neutral"}
+      ]
+    },
+    {
+      "id": "SN-11610",
+      "name": "Anjali Sharma",
+      "city": "Visakhapatnam",
+      "plan": "Fiber 100 Mbps",
+      "router": "SwiftNet ONT-X2",
+      "profile": [
+        "Anjali Sharma is a new customer who joined in August 2026.",
+        "Anjali is moving to a new flat in Madhurawada in October 2026."
+      ],
+      "tickets": [
+        {"date": "2026-08-29", "issue": "Installation done but internet not working on day one.", "resolution": "Account activation was pending in the system. Activated manually. Working.", "sentiment": "annoyed"},
+        {"date": "2026-09-18", "issue": "Asked how to shift connection to new flat.", "resolution": "Explained shifting process: raise request 7 days before, Rs 500 shifting fee, technician visit. She has not raised the request yet.", "sentiment": "neutral"}
+      ]
+    },
+    {
+      "id": "SN-11777",
+      "name": "Suresh Babu",
+      "city": "Nellore",
+      "plan": "Fiber 50 Mbps",
+      "router": "Tenda AC10",
+      "profile": [
+        "Suresh Babu runs a medical shop and uses the internet for a billing app.",
+        "Suresh usually calls early morning before opening the shop at 8 AM."
+      ],
+      "tickets": [
+        {"date": "2026-07-14", "issue": "Billing app cannot connect, other sites open.", "resolution": "Billing app server was blocked by router's parental control setting enabled by mistake. Disabled it.", "sentiment": "relieved"},
+        {"date": "2026-09-07", "issue": "Internet slow in the morning.", "resolution": "Tenda router overheating in closed cabinet. Advised moving to open area. Speed improved.", "sentiment": "satisfied"}
+      ]
+    },
+    {
+      "id": "SN-11905",
+      "name": "Divya Menon",
+      "city": "Hyderabad",
+      "plan": "Fiber 300 Mbps + OTT Pack",
+      "router": "SwiftNet ONT-X2",
+      "profile": [
+        "Divya Menon is a product manager who works hybrid and has frequent international calls.",
+        "Divya dislikes being put on hold and prefers email summaries after support calls."
+      ],
+      "tickets": [
+        {"date": "2026-08-11", "issue": "OTT Pack apps not activated on TV after 3 days.", "resolution": "Activation email went to old email address. Updated email and resent codes.", "sentiment": "annoyed"}
+      ]
+    },
+    {
+      "id": "SN-12033",
+      "name": "Ramesh Goud",
+      "city": "Warangal",
+      "plan": "Fiber 100 Mbps",
+      "router": "TP-Link Archer C6",
+      "profile": [
+        "Ramesh Goud is a school principal who manages Wi-Fi for a small private school.",
+        "Ramesh wants to block social media sites on students' computers during school hours."
+      ],
+      "tickets": [
+        {"date": "2026-07-03", "issue": "Wanted to block YouTube and Instagram for student computers.", "resolution": "Set up TP-Link access control with a schedule 9 AM to 4 PM for the student device group.", "sentiment": "happy"}
+      ]
+    },
+    {
+      "id": "SN-12158",
+      "name": "Pooja Iyer",
+      "city": "Hyderabad",
+      "plan": "Fiber 200 Mbps",
+      "router": "Netgear R6350",
+      "profile": [
+        "Pooja Iyer works night shifts for a US company, from 7 PM to 4 AM IST.",
+        "Pooja said technician visits must be scheduled after 1 PM because she sleeps in the morning."
+      ],
+      "tickets": [
+        {"date": "2026-08-27", "issue": "Connection drops around 2 AM during work.", "resolution": "Scheduled maintenance window in her area was 1 AM to 3 AM. Added her to maintenance SMS alerts and suggested mobile hotspot backup.", "sentiment": "frustrated"}
+      ]
+    },
+    {
+      "id": "SN-12290",
+      "name": "Naveen Chowdary",
+      "city": "Vijayawada",
+      "plan": "Fiber 150 Mbps",
+      "router": "TP-Link Archer C6",
+      "profile": [
+        "Naveen Chowdary is a startup founder who works late and prefers chat support over phone.",
+        "Naveen has a CCTV system that needs remote viewing from his phone."
+      ],
+      "tickets": [
+        {"date": "2026-09-03", "issue": "Cannot view CCTV from outside home.", "resolution": "Customer is behind CGNAT without a public IP. Offered static IP add-on at Rs 200 per month. Customer said he will think about it.", "sentiment": "neutral"}
+      ]
+    }
+  ]
+}
